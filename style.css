@@ -1,0 +1,131 @@
+.box1{
+    border: 5px solid rebeccapurple;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    width: 200px;
+
+     z-index: 1;
+    position:absolute; 
+    
+}
+
+#box2{
+    border: 5px solid rebeccapurple;
+    border-radius: 19px;
+    padding-top: 1px;
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 140px ;
+    
+    z-index: 2;
+    position: absolute;
+
+}
+
+#box3{
+    border: 5px solid rebeccapurple;
+    border-radius: 19px;
+    padding-left: 30px;
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    height: 100px;
+    margin-left: 950px;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+#form{
+    
+    text-align: center;
+    color: violet;
+    border: 5px dashed rebeccapurple;
+    margin-left: 600px;
+    margin-right: 300px;
+
+    position: relative;
+    
+} 
+
+.placeholder{
+    text-align:center;
+}
+
+#circleBorder{
+    
+    border: 5px solid rebeccapurple;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: -450px;
+    margin-left: 40px;
+    background-color:black;
+    color: whitesmoke;
+    position: absolute;
+    
+
+    
+    
+   
+}
+
+#content{
+
+    position: absolute;
+    font-size: large;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+     width: inherit;
+     margin-top: 55px;
+  
+}
+
+#h2heading{
+    text-align: center;
+    border: 5px solid rebeccapurple;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    width: 200px;
+    margin-left: 500px ;
+
+}
+
+#flex-Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.flex-item{
+
+    border: 5px solid rebeccapurple;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    text-align: center;
+    font-size: small;
+    margin: 40px;
+}
+
+body{
+    background: url(./image/ninetail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    border: 5px solid rebeccapurple;
+    margin: 0px;
+}
+
